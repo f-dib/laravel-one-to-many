@@ -9,6 +9,7 @@
             <div class="card-body">
                 <h5 class="card-title text-uppercase">{{ $project->name }}</h5>
                 <p class="card-text">{{ $project->description }}</p>
+                <p class="card-text">{{ $project->type->title }}</p>
             </div>
         </div>
 
