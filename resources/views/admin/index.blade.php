@@ -12,22 +12,9 @@
                     <div class="fw-bold fs-3">{{count($projects)}}</div>
                 </div>    
             </a>
-            <a class="col-3 text-decoration-none py-4 px-2" href="{{ route('admin.projects.index') }}">
+            <a class="col-3 text-decoration-none py-4 px-2" href="{{ route('admin.types.index') }}">
                 <div class="my-dash-card rounded-4 px-2 py-5 text-center">
-                    <h3 class="mb-3">Visita i tuoi progetti</h3>
-                    <div class="fw-bold fs-3">{{count($projects)}}</div>
-                </div>    
-            </a>
-            <a class="col-3 text-decoration-none py-4 px-2" href="{{ route('admin.projects.index') }}">
-                <div class="my-dash-card rounded-4 px-2 py-5 text-center">
-                    <h3 class="mb-3">Visita i tuoi progetti</h3>
-                    <div class="fw-bold fs-3">{{count($projects)}}</div>
-                </div>    
-            </a>
-            <a class="col-3 text-decoration-none py-4 px-2" href="{{ route('admin.projects.index') }}">
-                <div class="my-dash-card rounded-4 px-2 py-5 text-center">
-                    <h3 class="mb-3">Visita i tuoi progetti</h3>
-                    <div class="fw-bold fs-3">{{count($projects)}}</div>
+                    <h3 class="mb-3">Visita le tue tipologie</h3>
                 </div>    
             </a>
         </div>
